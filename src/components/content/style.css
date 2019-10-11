@@ -1,0 +1,14 @@
+
+.content {
+    display: flex;
+
+    flex-direction: column;
+    margin-left: 308px;
+
+    border-right: 1px solid #38444D;
+}
+
+.body {
+    margin-top: 53px;
+    z-index:1;
+}

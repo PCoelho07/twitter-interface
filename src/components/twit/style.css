@@ -1,0 +1,59 @@
+
+.twit-container {
+    display: flex;
+
+    padding: 12px;
+    color: #FFF;
+    max-width: 600px;
+    border-bottom: 1px solid #38444D;
+}
+
+.twit-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    margin-left: 15px;
+    align-content: center;
+}
+
+.twit-content h1 {
+    padding: 0;
+    margin: 0;
+
+    font-size: 16px;
+}
+
+.twit-header span {
+    font-size: 14px;
+    color: #8E95A0;
+}
+
+.twit-header h1, .twit-header span {
+    padding-right: 10px;
+}
+
+.twit-header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.twit-body {
+    padding: 2px 0;
+}
+
+.twit-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: 100px;
+
+    font-size: 14px;
+    color: #8E95A0;
+}
+
+.twit-footer svg {
+    padding-right: 10px;
+}
